@@ -1,0 +1,83 @@
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: .3125rem;
+    margin-right: 30px;
+    margin-left: 150px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: inherit;
+    white-space: nowrap;
+    background: teal;
+    padding:20px;
+    letter-spacing: 1px;
+
+}
+
+a:hover {
+    color: orange;
+}
+
+
+.link {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 20px;
+    letter-spacing: 1px;
+    float: right;
+    margin-right: 70px;
+}
+
+.container {
+    background: white;
+    
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.main {
+    background-color: white;
+    box-sizing: border-box;
+    color:grey;
+    float: right;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+body {
+    background: lightgray;
+}
+
+h1 {
+    color: teal;
+    padding-left: 19px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+img {
+    float: left;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+
+.first {
+ padding-right: 20px;
+ padding-left: 20px;
+}
+
+p {
+    line-height: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
