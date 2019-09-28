@@ -3,6 +3,7 @@
 }
 
 .navbar-brand {
+    
     display: inline-block;
     padding-top: 30px;
     padding-bottom: .3125rem;
@@ -10,38 +11,31 @@
     margin-left: 150px;
     font-size: 1.25rem;
     font-weight: bold;
+    letter-spacing: 1px;
     line-height: inherit;
-    white-space: nowrap;
     background: teal;
     padding:20px;
-    letter-spacing: 1px;
-
 }
+
 
 a:hover {
-    color: orange;
-}
-
-
-.link {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
-    padding: 20px;
-    letter-spacing: 1px;
-    float: right;
-    margin-right: 70px;
+    color:teal;
 }
 
 .container {
     background: white;
-    
-    
 }
 
 a:link {
     text-decoration: none;
 }
+
+.nav-link {
+    color: grey;
+    border-right: 1px solid grey;
+}
+
+
 
 .main {
     background-color: white;
@@ -60,14 +54,24 @@ body {
 h1 {
     color: teal;
     padding-left: 19px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+
+    
+}
+
+.line {
+    border-bottom: grey solid 2px;
+    width: 95%;
+    margin-left: 20px;
+    
+    
 }
 
 img {
     float: left;
     margin-left: 20px;
     padding-right: 10px;
+    padding-top: 20px;
 }
 
 
@@ -81,3 +85,78 @@ p {
     padding-right: 20px;
     padding-left: 20px;
 }
+
+/* portfolio page */
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+  
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+
+  /* footer */
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+  }
+  
+  h3, h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eeeeee;
+  }
